@@ -1,10 +1,47 @@
+@import unslider
+
 .slide
 	width: 100%
 	height: 25em
 	margin-top: -2em
+	
+	h2, p
+		text-align: center
+		color: #fff
+		position: relative
+	
+	h2
+		top: 2em
+		text-decoration: underline
+	
+	p
+		top: 6em
+		width: 85%
+		margin-left: auto
+		margin-right: auto
 
 .slide1
 	background-image: url("a-cruise-ship-high-res-wallpaper.jpg")
 
 .slide2
 	background-image: url("cargo-vessel.jpg")
+
+.unslider-arrow
+	position: relative
+	bottom: 12em
+	color: transparent
+	border-radius: 10em
+	border-style: solid
+	border-color: red
+	background-image: url("data:image/svg+xml;utf8,<svg width='25' height='20' viewPort='0 0 20 20' version='1.1' xmlns='http://www.w3.org/2000/svg'><line x1='2' y1='2' x2='20' y2='10' stroke='black' stroke-width='1'/><line x1='18' y1='10' x2='2' y2='20' stroke='black' stroke-width='1'/></svg>")
+
+.unslider-arrow.next
+	left: 10%
+	margin-right: 40%
+	transform: rotateX(180deg)
+
+.unslider-arrow.prev
+	margin-left: 40%
+
+.unslider-nav
+	display: none

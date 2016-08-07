@@ -7,14 +7,13 @@
 	ul
 		list-style: none
 		
-	li :before
-		content: ""
-		border-style: solid
-		border-color: transparent #111
-		border-width: 0.35em 0.35em 0.45em
+.bullet-arrow
+	height: 1.5em
+	width: 1.5em
+	background-image: url("data:image/svg+xml;utf8,<svg width='25' height='20' viewPort='0 0 20 20' version='1.1' xmlns='http://www.w3.org/2000/svg'><line x1='2' y1='2' x2='20' y2='10' stroke='#fff' stroke-width='2'/><line x1='18' y1='10' x2='2' y2='20' stroke='#fff' stroke-width='2'/></svg>")
 
 .footer-top
-	background-color: $light-black
+	background-color: $light-black 
 	
 	.container
 		width: 75%
